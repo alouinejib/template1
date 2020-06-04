@@ -1,0 +1,49 @@
+/* -- test section-- */
+.test{
+position: relative;
+background-image: url(../images/background/background3.webp);
+height: 400px;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.test-content{
+overflow: hidden;
+padding: 110px 0;
+with: 50%;
+margin: auto
+}
+
+.test-item{
+width: 50%;
+float: left;
+color: white
+}
+
+.test-item .test-item-top-layer{
+padding: 20px 2px 40px 100px;
+position: relative
+}
+
+.test-item .test-item-top-layer img{
+position: absolute;
+left: 10px;
+top: 10px;
+border-radius:50%
+}
+
+.test-item .test-item-top-layer h2{
+margin-bottom: 5px;
+text-transform: capitalize
+}
+
+.test-item .test-item-top-layer span{
+color:#6195ff;
+}
+
+.test-item-desc{
+color:#888;
+line_height: 1.5;
+font-size: 17px;
+padding-right: 20px
+}

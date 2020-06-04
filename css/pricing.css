@@ -1,0 +1,79 @@
+
+
+/* -- Pricing section-- */
+
+.pricing{
+
+}
+.pricing-plans{
+overflow: hidden;
+}
+.pricing-item{
+width: 30%;
+float: left;
+text-align: center;
+padding: 40px 15px;
+border: 1px solid #e8e8e8;
+
+}
+
+
+.pricing-item.mg{
+   margin: 0 5%;
+}
+.pricing-item-text{
+text-transform: uppercase;
+font-size: 14px;
+color: #999;
+transition: color 1s
+}
+
+.pricing-item-permounth{
+width:130px;
+height:130px;
+padding: 20px 0;
+margin : 20px auto;
+border: 2px solid #6195ff;
+border-radius: 50%;
+transition: color 1s
+
+}
+
+
+.pricing-item-permounth .dollar{
+font-size: 50px
+}
+.pricing-item-permounth .mounth {
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.pricing-list{
+list-style: none;
+}
+
+.pricing-list li{
+color: #888;
+line-height: 1.6;
+}
+
+.pricing-item-purchase{
+background: none;
+border: 2px solid #6195ff;
+display: block;
+width: 140px;
+padding: 10px;
+margin: 15px auto 0 auto;
+color: #6195ff;
+font-size: 18px;
+
+}
+
+.pricing-item:hover .pricing-item-permounth{
+color: white;
+}
+
+.pricing-item:hover .pricing-item-text{
+color: #6195ff;
+}
